@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-A.css">
+    <title>Login | Sign Up</title>
+</head>
+
+<body>
+    <section id="login">
+        <div id="centerpage">
+            
+            <h1>Log In!</h1>
+            
+            <form action="">
+                <label for="form-name">
+                    <div>Full Name<input type="text" name="myname" id="form-name" placeholder="Full Name" required>
+                    </div>
+                </label>
+
+                <label for="form-email">
+                    <div>Email Id<input type="email" name="myemail" id="form-email" placeholder="Email ID" required>
+                    </div>
+                </label>
+
+                <label for="form-mobile">
+                    <div>Mobile Number<input type="tel"  minlength="10" maxlength="10"
+                            name="mymobile" id="form-mobile" placeholder="Mobile Number" required></div>
+                </label>
+
+                <label for="form-passwd">
+                    <div>Password<input type="password" minlength="8" maxlength="8" name="mypasswd" id="form-passwd" placeholder="Password" title="Must contain 8 characters containing alphanumeric + one special symbol" 
+                            required></div>
+                </label>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+
+            </form>
+            <h3>Already have an account? | <a href="#">Sign Up</a></h3>
+        </div>
+    </section>
+</body>
+
+</html>

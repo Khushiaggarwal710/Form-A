@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#login{
+    height:100vh;
+    width:100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#centerpage{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width:30vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 8px 11px bisque;
+    
+}
+
+#login h1{
+    width: 30vw;
+    font-size: 34px;
+    /* font-size: 20px; */
+    text-align: center;
+    margin:4px auto ;
+    margin-top:12px;
+    padding: 8px auto;
+    background-color: rgba(0, 0, 255, 0.89);
+    border-radius: 30px;
+    box-sizing: border-box;
+    /* animation-name: log_in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes log_in {
+    100%{
+        font-size:34px;
+    }
+} */
+form div{
+    display: flex;
+    flex-direction: column;
+}
+#login form{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    width:30vw;
+    height:400px;
+    /* background-color: red; */
+    padding:25px;
+}
+#login form label,input[type="submit"],input[type="reset"]{
+    margin:7px auto;
+    
+}
+#login form input[type]
+{
+    width:250px;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    
+    
+}
+
+input[type="submit"]{
+    background-color: rgba(0, 0, 255, 0.89);
+    cursor: pointer;
+}
+input[type="reset"]{
+    background-color: rgb(49, 164, 49);
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    padding:10px;
+    margin:2px auto;
+    /* background-color: brown; */
+}
+h3 a{
+    text-decoration: none;
+    color: black;
+}
+input[type="submit"]:hover
+{
+    background-color: rgba(0, 0, 255, 0.488);
+}
+input[type="reset"]:hover{
+    background-color: rgba(49, 164, 0, 0.479);
+}
+/* media queries */
+@media only screen and (max-width:300px)
+{
+    #centerpage{
+        width:80vw;
+    }
+    #login h1{
+        width: 80vw;
+        font-size: 25px;
+        padding: 8px 5px;
+    }
+    #login form{
+        
+        
+        width:80vw;
+        height:400px;
+        
+        padding:25px;
+    }
+    #login form input[type]
+    {
+    width:50vw;
+    
+    }
+
+}
+@media only screen and (max-width:300px)
+{
+    #centerpage{
+        width:80vw;
+    }
+    #login h1{
+        width: 80vw;
+        font-size: 25px;
+        padding: 8px 5px;
+    }
+    #login form{
+        
+        
+        width:80vw;
+        height:400px;
+        
+        padding:25px;
+    }
+    #login form input[type]
+    {
+    width:50vw;
+    
+    }
+
+}
+
+@media only screen and (max-width:300px)
+{
+    #centerpage{
+        width:80vw;
+    }
+    #login h1{
+        width: 80vw;
+        font-size: 25px;
+        padding: 8px 5px;
+    }
+    #login form{
+        
+        
+        width:80vw;
+        height:400px;
+        
+        padding:25px;
+    }
+    #login form input[type]
+    {
+    width:50vw;
+    
+    }
+    
+
+}
+@media only screen and (min-width:300px) and (max-width:500px)
+{
+    #centerpage{
+        width:70vw;
+    }
+    #login h1{
+        width: 70vw;
+        font-size: 30px;
+        padding: 8px 5px;
+    }
+    #login form{
+        
+        
+        width:70vw;
+        height:400px;
+        
+        padding:25px;
+    }
+    #login form input[type]
+    {
+    width:50vw;
+    
+    }
+
+}
+@media only screen and (min-width:500px) and (max-width:980px)
+{
+    #centerpage{
+        width:70vw;
+    }
+    #login h1{
+        width: 60vw;
+        font-size: 33px;
+        padding: 8px 5px;
+    }
+    #login form{
+        
+        
+        width:60vw;
+        height:400px;
+        
+        padding:25px;
+    }
+    #login form input[type]
+    {
+    width:50vw;
+    
+    }
+
+}
